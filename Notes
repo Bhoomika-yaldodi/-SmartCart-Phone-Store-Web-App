@@ -1,0 +1,105 @@
+Setup
+1. how to create react setup
+cmd: npx install create-react-app
+
+2. how to create react project
+cmd: npx create-react-app projectname
+note: project name should be in small letters
+
+3. run/execute react project
+cmd: npm start
+
+
+Component:
+It is a unit of logic, it contains js, css, and html
+It will always return html elements
+Every components must be exportes and imported before call/access
+
+2 Types:
+Functional components
+stateless component
+It will follow react hooks
+
+class component:
+stateful components
+It will follow life cycle
+
+
+function component vs class component in react
+
+feature                             function component                         class component
+syntax                              just a function                            uses a class
+code simplicity                     short and clean                            more code and setup
+usage                                mostly used now                           used in older code
+
+
+
+
+
+Bootstrap setup
+
+1. npm install bootstrap@4.6.0
+
+2. to check installation status
+npm list bootstrap
+
+3. import css file
+import "bootstrap/dist/css/bootstrap.min.css";
+
+4. import js files
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+5. uninstall
+npm uninstall boostrap
+
+
+React routing
+
+To implement single page application
+To navigate one page to another page using routing
+
+React routing component
+1. BrowserRouter -> to handel browser navigation action
+2. Routes -> Routes will have route configuration
+3. Route -> Route path to be rendered component based on ink url text
+4. Link -> to link to the path
+
+
+To setup react routing need to install routing packages
+npm install react-router-dom
+
+
+
+React integration with API:
+API -> Application programming interface (it is communication channel between client & server)
+
+In React we can't directly connect to db so we use API to coonect to the database
+
+
+
+Creating a server on react
+1. npm install json-server
+it will create one dummy API with the temporary DB
+
+2. npx json-server --watch db.json(another terminal)
+it will start the server with the db.json file
+
+3. npm start
+
+Note. db.json file should be in the root directoty.
+
+
+React hook
+1. useState ->
+.It lets you create and store a value inside your component that can change over time.
+.Think of it like a box where you keep something, and you can update what's inside whenever you want.
+
+2.useEffect ->
+.It lets you run some code after the component renders (or when certain things change)
+.It's like saying: "Hey React, when you show this component on the screen, run this code."
+
+
+
+
+
+
