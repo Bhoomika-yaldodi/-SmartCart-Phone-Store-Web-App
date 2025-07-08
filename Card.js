@@ -21,7 +21,7 @@ function Card() {
               <img src={product.image} className="card-img-top p-3" alt={product.title} />
               <div className="card-body text-center">
                 <h6 className="card-title">{product.title}</h6>
-                <h6 style={{ color: "blue", fontWeight: "bold" }}>${Card.price}</h6>
+                <h6 style={{ color: "blue", fontWeight: "bold" }}>${product.price}</h6>
                 <Link to={`/details/${product.id}`} className="btn btn-primary mt-2">View</Link>
               </div>
             </div>
